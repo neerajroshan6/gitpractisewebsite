@@ -33,8 +33,9 @@ nav {
 }
 
 .nav-links {
-  padding-top: 30px;
+  padding-top: 10px;
     display: flex;
+    justify-content: space-evenly;
     gap: 30px;
     list-style: none;
 }
@@ -384,7 +385,9 @@ nav {
 .footer {
   background-color: #f9f9f9;
   padding: 60px 20px 30px;
-  font-family: 'Cal Sans', sans-serif;
+  color: #848181;
+  font-weight: 600;
+  /* font-family: 'Cal Sans', sans-serif; */
 }
 
 .footer-container {
@@ -446,7 +449,7 @@ nav {
   border-radius: 50%;
   text-align: center;
   font-size: 1.1rem;
-  transition: background 0.3s, color 0.3s;
+  transition:  0.3s, color 0.3s;
 }
 
 .social-icons a:hover {
@@ -477,7 +480,7 @@ nav {
   color: white;
   border-radius: 0 25px 25px 0;
   cursor: pointer;
-  transition: background 0.3s;
+  transition:  0.3s;
 }
 
 .newsletter button:hover {
@@ -498,29 +501,4 @@ nav {
 
 .footer-bottom a:hover {
   text-decoration: underline;
-}
-@media (max-width: 768px) {
-    .nav-links {
-        flex-direction: column;
-        flex-wrap: wrap;
-        gap: 10px;
-    }
-    .hero-content {
-        margin: 100px 0 0 20px;
-    }
-    .info-section {
-        flex-direction: column;
-        align-items: center;
-    }
-    .left-content, .right-content {
-        /* flex: 1 1 100%; */
-        flex-grow: 1;
-flex-shrink: 1;
-flex-basis: 100%;
-        text-align: center;
-    }
-    .stats-section {
-        flex-direction: column;
-        align-items: center;
-    }
 }

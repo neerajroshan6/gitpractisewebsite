@@ -47,7 +47,7 @@ nav {
     color: #28a745;
 }
 .get-started-btn {
-  background-color: #4CAF50; /* green */
+  background-color: #5fcf80; 
   color: white;
   padding: 12px 24px;
   border: none;
@@ -63,12 +63,12 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #218838;
+    color: #5fcf80;
     padding-left: 20px;
 }
 
 .about-section {
-    background-color: #4CCB6D;
+    background-color: #5fcf80;
     padding: 100px 20px;
     color: white;
     text-align: center;
@@ -144,7 +144,7 @@ nav {
 
 .stat-box h3 {
     font-size: 3rem;
-    color: #28a745; 
+    color: #5fcf80; 
     font-weight: bold;
     margin-bottom: 10px;
 }
